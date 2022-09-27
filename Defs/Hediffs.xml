@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
+
   <HediffDef Name="HediffWhineBase" Abstract="True">
     <hediffClass>MoreThanCapable.Hediff_Whine</hediffClass>
     <defaultLabelColor>(1.0, 1.0, 0.5)</defaultLabelColor>
     <initialSeverity>0.01</initialSeverity>
   </HediffDef>
-  
+
   <HediffDef ParentName="HediffWhineBase" Name="HediffWhineBaseEasy" Abstract="True">
-    
+
   </HediffDef>
-  
+
   <HediffDef ParentName="HediffWhineBase" Name="HediffWhineBaseHard" Abstract="True">
     <stages>
       <li>
@@ -70,113 +70,113 @@
       </li>
     </stages>
   </HediffDef>
-  
-  <HediffDef ParentName="HediffWhineBaseHard">
+
+  <HediffDef ParentName="HediffWhineBaseEasy">
     <defName>AssignedToArt</defName>
     <label>assigned to art</label>
     <description>Colonist has been assigned to art</description>
   </HediffDef>
-  
+
   <HediffDef ParentName="HediffWhineBaseEasy">
     <defName>AssignedToCleaning</defName>
     <label>assigned to cleaning</label>
     <description>Colonist has been assigned to cleaning</description>
   </HediffDef>
-  
-  <HediffDef ParentName="HediffWhineBaseHard">
+
+  <HediffDef ParentName="HediffWhineBaseEasy">
     <defName>AssignedToConstruction</defName>
     <label>assigned to construction</label>
     <description>Colonist has been assigned to construction</description>
   </HediffDef>
-  
-  <HediffDef ParentName="HediffWhineBaseHard">
+
+  <HediffDef ParentName="HediffWhineBaseEasy">
     <defName>AssignedToCooking</defName>
     <label>assigned to cooking</label>
     <description>Colonist has been assigned to cooking</description>
   </HediffDef>
-  
-  <HediffDef ParentName="HediffWhineBaseHard">
+
+  <HediffDef ParentName="HediffWhineBaseEasy">
     <defName>AssignedToCrafting</defName>
     <label>assigned to crafting</label>
     <description>Colonist has been assigned to crafting</description>
   </HediffDef>
-  
-  <HediffDef ParentName="HediffWhineBaseHard">
+
+  <HediffDef ParentName="HediffWhineBaseEasy">
     <defName>AssignedToDoctor</defName>
     <label>assigned to doctor</label>
     <description>Colonist has been assigned to doctor</description>
   </HediffDef>
-  
-  <HediffDef ParentName="HediffWhineBaseHard">
+
+  <HediffDef ParentName="HediffWhineBaseEasy">
     <defName>AssignedToFirefighter</defName>
     <label>assigned to firefighter</label>
     <description>Colonist has been assigned to firefighter</description>
   </HediffDef>
-  
-  <HediffDef ParentName="HediffWhineBaseHard">
+
+  <HediffDef ParentName="HediffWhineBaseEasy">
     <defName>AssignedToGrowing</defName>
     <label>assigned to growing</label>
     <description>Colonist has been assigned to growing</description>
   </HediffDef>
-  
-  <HediffDef ParentName="HediffWhineBaseHard">
+
+  <HediffDef ParentName="HediffWhineBaseEasy">
     <defName>AssignedToHandling</defName>
     <label>assigned to handling</label>
     <description>Colonist has been assigned to handling</description>
   </HediffDef>
-  
+
   <HediffDef ParentName="HediffWhineBaseEasy">
     <defName>AssignedToHauling</defName>
     <label>assigned to hauling</label>
     <description>Colonist has been assigned to hauling</description>
   </HediffDef>
-  
-  <HediffDef ParentName="HediffWhineBaseHard">
+
+  <HediffDef ParentName="HediffWhineBaseEasy">
     <defName>AssignedToHunting</defName>
     <label>assigned to hunting</label>
     <description>Colonist has been assigned to hunting</description>
   </HediffDef>
-  
-  <HediffDef ParentName="HediffWhineBaseHard">
+
+  <HediffDef ParentName="HediffWhineBaseEasy">
     <defName>AssignedToMining</defName>
     <label>assigned to mining</label>
     <description>Colonist has been assigned to mining</description>
   </HediffDef>
-  
+
   <HediffDef ParentName="HediffWhineBaseEasy">
     <defName>AssignedToPlantCutting</defName>
     <label>assigned to plant cutting</label>
     <description>Colonist has been assigned to plant cutting</description>
   </HediffDef>
-  
-  <HediffDef ParentName="HediffWhineBaseHard">
+
+  <HediffDef ParentName="HediffWhineBaseEasy">
     <defName>AssignedToResearch</defName>
     <label>assigned to research</label>
     <description>Colonist has been assigned to research</description>
   </HediffDef>
-  
-  <HediffDef ParentName="HediffWhineBaseHard">
+
+  <HediffDef ParentName="HediffWhineBaseEasy">
     <defName>AssignedToSmithing</defName>
     <label>assigned to smithing</label>
     <description>Colonist has been assigned to smithing</description>
   </HediffDef>
-  
-  <HediffDef ParentName="HediffWhineBaseHard">
+
+  <HediffDef ParentName="HediffWhineBaseEasy">
     <defName>AssignedToTailoring</defName>
     <label>assigned to tailoring</label>
     <description>Colonist has been assigned to tailoring</description>
   </HediffDef>
-  
-  <HediffDef ParentName="HediffWhineBaseHard">
+
+  <HediffDef ParentName="HediffWhineBaseEasy">
     <defName>AssignedToWarden</defName>
     <label>assigned to warden</label>
     <description>Colonist has been assigned to warden</description>
   </HediffDef>
-  
-  <HediffDef ParentName="HediffWhineBaseHard">
+
+  <HediffDef ParentName="HediffWhineBaseEasy">
     <defName>AssignedAWeapon</defName>
     <label>assigned a weapon</label>
     <description>Colonist has been assigned a weapon</description>
   </HediffDef>
-  
+
 </Defs>
